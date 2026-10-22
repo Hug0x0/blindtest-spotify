@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
-    "react": "^16.1.0",
-    "react-dom": "^16.1.0",
-    "react-scripts": "^2.0.5",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "5.0.1",
     "react-sound": "^0.8.0"
   },
   "homepage": "https://clement-escolano.github.io/blindtest-spotify",
@@ -23,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "yarn@1.22.22"
 }
